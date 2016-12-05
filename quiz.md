@@ -50,9 +50,10 @@ var listItems = lists.children;
 ### List two ways to get the first li element
 ```
 var listItems = document.getElementsByTagName('li');
+
 listItems[0];
 
-???
+listItems.shift();
 ```
 ### How can we set a given element to be hidden?
 ```
