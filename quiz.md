@@ -1,6 +1,9 @@
 # Quiz
 
-1. What does DOM stand for? DOCUMENT OBJECT MODEL
+1. What does DOM stand for?    
+```
+Document Object Model
+```
 
 2. What is the name of the object we can use to get information about the browser enviroment? **window**
 
