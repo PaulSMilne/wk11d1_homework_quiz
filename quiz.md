@@ -43,7 +43,7 @@ true
 1. document.getElementsByTagName('li')
 
 2. var lists = document.getElementsByTagName('ul);    
- var listItems = lists.children;
+   var listItems = lists.children;
 ```
 11. List two ways to get the first li element
 
