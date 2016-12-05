@@ -19,8 +19,8 @@
  2. **document.querySelector(".cat")**
 
 9. List two ways to retrieve the element with id "goat"
- 1. .getElementbyID("goat")
- 2. .querySelector("#goat")
+ 1. **document.getElementbyID("goat")**
+ 2. **document.querySelector("#goat")**
 
 10. List two ways to get all the li elements
 
