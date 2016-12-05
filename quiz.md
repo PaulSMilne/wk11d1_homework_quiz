@@ -20,9 +20,11 @@
 
 9. List two ways to retrieve the element with id "goat"
  1. **document.getElementbyID("goat")**
- 2. **document.querySelector("#goat")**
+ 2. **document.querySelector("#goat")**..
 
 10. List two ways to get all the li elements
+ 1. **document.getElementsByTagName('li')**
+ 2. 
 
 11. List two ways to get the first li element
 
