@@ -33,9 +33,10 @@ true
 ```
 
 8. List two ways to get all the elements by class 'cat'
- 1. **document.getElementsByClassName("cat")**
- 2. **document.querySelector(".cat")**
-
+```
+1. document.getElementsByClassName("cat")
+2. document.querySelector(".cat")
+```
 9. List two ways to retrieve the element with id "goat"
  1. **document.getElementbyID("goat")**
  2. **document.querySelector("#goat")**..
