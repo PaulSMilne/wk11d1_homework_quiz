@@ -24,7 +24,8 @@
 
 10. List two ways to get all the li elements
  1. **document.getElementsByTagName('li')**
- 2. 
+ 2. **var lists = document.getElementsByTagName('ul);**    
+ **var listItems = lists.children;**
 
 11. List two ways to get the first li element
 
