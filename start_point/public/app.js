@@ -1,13 +1,23 @@
+window.onload = function(){
+
 var catList = document.createElement('ul');
 catList.classList.add('cat');
 
-var catNameItem = document.createElement('li');
-catNameItem.innerText = "Minnie";
+var nameItem = document.createElement('li');
+nameItem.innerText = "Name: Minnie";
 
 var foodItem = document.createElement('li');
-foodItem.innerText = "Electrical cables";
+foodItem.innerText = "Favorite food: Electrical cables";
 
-var imageSource = document.createElement('img');
-imageSource.src = "images/minnie.jpg";
+var catPic = document.createElement('img');
+catPic.src = "images/minnie.jpg";
+catPic.width = "500"
 
+catList.appendChild(nameItem);
+catList.appendChild(foodItem);
+catList.appendChild(catPic);
 
+var cats = document.querySelector('#cats');
+cats.appendChild(catList);
+
+}
