@@ -26,39 +26,35 @@ window.onload
 ```
 ### We use window.createElement to make new DOM elements, true or false? 
 ```
-true
+false
 ```
 ### List two ways to get all the elements by class 'cat'
 ```
 document.getElementsByClassName("cat")
-
-document.querySelector(".cat")
+document.querySelectorAll(".cat")
 ```
 ### List two ways to retrieve the element with id "goat"
 ```
 document.getElementbyID("goat")
-
 document.querySelector("#goat")
 ```
 ### List two ways to get all the li elements
 ```
 document.getElementsByTagName('li')
-
+document.querySelectorAll('li')
 var lists = document.getElementsByTagName('ul');    
 var listItems = lists.children;
 ```
 ### List two ways to get the first li element
 ```
 var listItems = document.getElementsByTagName('li');
-
 listItems[0];
-
+document.querySelector('li')
 listItems.shift();
 ```
 ### How can we set a given element to be hidden?
 ```
 element.style.visibility = "hidden";
-
 element.style.display = "none";
-
+```
 
